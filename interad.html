@@ -152,9 +152,7 @@
 		{
 			$("#submitbtn").click(function()
 			{
-				if(!validateEntry("password") || !!validateEmail(this.email, 'Please enter a correct   
-
-email address or leave the field blank', true))
+				if(!validateEntry("password") || !!validateEmail(this.email, "Please enter a correct email address or leave the field blank", true))
 				{
 					return false;
 				}
